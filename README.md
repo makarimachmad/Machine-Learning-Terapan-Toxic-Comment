@@ -4,6 +4,7 @@
 Analisis Penerapan Feature Engineering TF-IDF terhadap Metode Machine Learning(Studi Kasus Toxic Comment Classification)
 
 ### Latar Belakang
+![hater](hater.jpg)
 Ujaran kebencian, perkataan kasar, menghina seseorang dan merendahkan seseorang pada media sosial online menjadi permasalahan yang begitu serius di masa saat ini, efek yang ditimbulkan dari perbuatan tersebut dapat mengganggu kesehatan mental seseorang yang menjadi korban. Menggunakan metode machine learning dapat membantu pengecekan apakah komentar dalam sebuah konten termasuk dalam buruk atau tidak. Terlepas dari hal tersebut, tentunya membutuhkan sebuah metode klasifakasi yang akurat supaya dapat menentukan apakah teks dari komentar pengguna termasuk toxic atau tidak. Apabila membuat sebuah model yang buruk akan dapat tidak berfungsi dengan baik pengklasifikasian teks yang akan digunakan nantinya.
 
 ## Business Understanding
