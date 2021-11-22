@@ -24,7 +24,7 @@ Menjelaskan pernyataan masalah latar belakang:
 ## Solution statements
 Hasil dari analisis dan evaluasi model dari beberapa metode machine learning yang paling terbaik yang nantinya akan dipakai.
 - **Stochastic Gradient Descent (SGD)** 
-{stochasitic.png}
+  -![stochastic](stochasitic.png)
 SGD adalah pendekatan yang sederhana namun sangat efisien untuk menyesuaikan pengklasifikasi linier dan regressor di bawah fungsi kerugian cembung seperti (linier) Support Vector Machines dan Logistic Regression. Meskipun SGD telah ada di komunitas pembelajaran mesin untuk waktu yang lama, baru-baru ini telah menerima banyak perhatian dalam konteks pembelajaran skala besar.
 kelebihan:
 kekurangan:
@@ -36,13 +36,13 @@ kelebihan:
 kekurangan:
 
 - **Neirest Neighbors**
-{neirest neighbors.png}
+  -![neirest](neirest neighbors.png)
 Neirest neighbors adalah jenis pembelajaran berbasis instance atau pembelajaran non-generalisasi: ia tidak mencoba membangun model internal umum, tetapi hanya menyimpan instance dari data pelatihan. Klasifikasi dihitung dari suara mayoritas sederhana dari tetangga terdekat dari setiap titik: titik kueri diberikan kelas data yang memiliki perwakilan paling banyak dalam tetangga terdekat dari titik tersebut.
 kelebihan:
 kekurangan:
 
 - **Decision Tree**
-{decision tree.png}
+  ![decision](decision tree.png)
 Decision Trees (DTs) adalah metode pembelajaran terawasi non-parametrik yang digunakan untuk klasifikasi dan regresi. Tujuannya adalah untuk membuat model yang memprediksi nilai variabel target dengan mempelajari aturan keputusan sederhana yang disimpulkan dari fitur data. Sebuah pohon dapat dilihat sebagai pendekatan konstan sepotong demi sepotong.
 
 Misalnya, dalam contoh di bawah ini, pohon keputusan belajar dari data untuk memperkirakan kurva sinus dengan seperangkat aturan keputusan jika-maka-lain. Semakin dalam pohonnya, semakin kompleks aturan keputusannya dan semakin fit modelnya.
@@ -50,19 +50,19 @@ kelebihan:
 kekurangan:
 
 - **Neural Network MLP**
-{gambar}
+  -![nn](mlp.png)
 Multi-layer Perceptron (MLP) adalah algoritma pembelajaran terawasi yang mempelajari suatu fungsi dengan pelatihan pada dataset, di mana adalah jumlah dimensi untuk input dan adalah jumlah dimensi untuk output. Diberikan serangkaian fitur dan target , ia dapat mempelajari aproksimator fungsi non-linier untuk klasifikasi atau regresi. Berbeda dengan regresi logistik, di antara lapisan input dan output dapat terdapat satu atau lebih lapisan non-linier, yang disebut lapisan tersembunyi. Gambar 1 menunjukkan MLP satu lapisan tersembunyi dengan output skalar.
 kelebihan:
 kekurangan:
 
 - **K Neirest Neigbors (KNN)**
-{knn.png}
+  ![knn](knn.png)
 KNN merupakan pemblajaran supervised learning dimana hasil dari instance yang baru diklasifikasikan berdasarkan hasil dari mayoritas nilai kategori k tetangga terdekatnya.
 kelebihan:
 kekurangan:
 
 - **Linear SVC**
-{linear svc.png}
+![linear](linear svc.png)
 Linear SVC merupakan pengembalian hyperplane paling sesuai atau mengkategorikan data, kemudia hyperplane dapat memasukkan beberapa fitur ke classifier untuk melihat kelas prediksi.
 kelebihan:
 kekurangan:
@@ -100,7 +100,7 @@ Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:
 |159571| rows × 8 columns
 
 ## EDA
-{wordcloud.png}
+![wordc](wordcloud.png)
 
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
@@ -114,13 +114,13 @@ stopwords adalah menghiangkan kata-kata yang tidak diperlukan dalam pelatihan da
 Bagian ini menentukan fitur-fitur apa saja yang nantinya berperan penting dalam pelatihan data.
 
 ### Scoring
-{scoring.png}
+![scoring](scoring.png)
 Menghitung banyaknya teks berdasarkan jenis toxicnya.
 
 **Term Frequency — Inverse Document Frequency(TF-IDF)**
-{tf.png}
-{idf.png}
-{tf-idf.png}
+![tf](tf.png)
+![idf](idf.png)
+![tdf](tf-idf.png)
 Suatu teknik untuk menghitung banyaknya kata dalam suatu teks dimana tujuannya adalah mencaritahu seberapa penting kata itu dalam suatu teks. 
 
 
@@ -221,8 +221,8 @@ akurasi TF-IDF: 0.6076014381099127
 akurasi non TF-IDF: 0.5842321520287622
 akurasi TF-IDF: 0.5772984078068824
 
-|	                     |  non-tfidf|	   tfidf|
-|----------------------------|-----------|--------------|
+|	                           |  non-tfidf|	   tfidf|
+|----------------------------|-----------|----------|
 |naive_bayes                 |	 0.591680|	0.598356|
 |knn                         |	 0.591680|	0.536723|
 |neural_network              |	 0.584232|	0.577298|
@@ -232,7 +232,7 @@ akurasi TF-IDF: 0.5772984078068824
 |svm                         |	 0.544171|	0.636620|
 |decision_tree               |	 0.549050|	0.566256|
 
-{evaluasi.png}
+![eval](evaluasi.png)
 
 terdapat tujuh algoritma yang dipakai
 
