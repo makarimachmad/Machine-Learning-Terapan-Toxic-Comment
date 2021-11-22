@@ -238,6 +238,7 @@ kesimpulan:
 terdapat tujuh algoritma yang dipakai perbandingan untuk dianalisa hasil pembelajaran datanya, comment text yang digunakan termasuk kategorikal maka akan lebih cocok menggunakan metode yang dapat menanangani kategorikal.TF-IDF dapat membuang kata-kata imbuhan yang tidak dibutuhkan sehingga dapat meingkatkan sebagian besar algoritma. pada kasus ini SVM lah yang signifikan kenaikannya apabila diterapkan feature engineering TF-IDF yaitu kenaikan akurasi sebesar 0.09, sebelum diterapkan TF-IDF akurasi hanya 0.54 namun setelah diterapkan TF-IDF menjadi 0.63.
 
 Refrensi:
+- https://www.dicoding.com/academies/319
 - https://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 - https://pythonspot.com/nltk-stop-words/
 - https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089#:~:text=TF%2DIDF%20stands%20for%20%E2%80%9CTerm,Information%20Retrieval%20and%20Text%20Mining.
